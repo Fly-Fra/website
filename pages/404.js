@@ -13,7 +13,7 @@ const errorPage = () => {
       </Head>
       <section className="h-full   overflow-hidden grid place-items-center w-full pt-20">
         <h1 className="text-dark-blue animate-pulse text-4xl font-bold uppercase">
-          sous <span className="text-main-red">développement</span>
+          Page not <span className="text-main-red">found</span>
         </h1>
         <img className="w-[40%] " src="/development.svg" alt="" />
       </section>
