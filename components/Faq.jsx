@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Faq = () => {
   const questions = [
-    { title: "question", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
+    { title: "question", awnser: "Test, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
     { title: "question2", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
     { title: "question3", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
     { title: "question3", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
