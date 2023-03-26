@@ -110,7 +110,7 @@ const Hero = ({setVisible}) => {
         {slides.map(
           (pic, index) =>
               index ===current && (
-                <div key={index} className={`h-full w-full transition-all absolute bottom-0 fade-in    ${current === index ? "  block z-[3] " : "  block z-[2]"}`}>
+                <div key={index} className={`h-full w-full transition-all absolute bottom-0 fade-in ${current === index ? "  block z-[3] " : "  block z-[2]"}`}>
                 <Img className={`w-full h-full  object-cover ${pic.pos}`} src={pic.ico} alt="cover pic of website" />
               </div>
               )
