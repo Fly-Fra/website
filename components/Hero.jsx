@@ -107,11 +107,11 @@ const Hero = ({setVisible}) => {
 
         </div>
       <div onClick={()=>nextSlide()} ref={image} className="h-full  [clip-path:_polygon(0%_0%,_100%_0%,_100%_100%,_0%_100%);]  lg:[clip-path:_polygon(100%_0%,_100%_0%,_100%_100%,_100%_100%);]   w-full">
-        {slides.map(
+      {slides.map(
           (pic, index) =>
               index ===current && (
-                <div key={index} className={`h-full w-full transition-all absolute bottom-0 fade-in ${current === index ? "  block z-[3] " : "  block z-[2]"}`}>
-                <Img className={`w-full h-full  object-cover ${pic.pos}`} src={pic.ico} alt="cover pic of website" />
+                <div key={index} className={`h-full w-full transition-all absolute bottom-0 fade-in    ${current === index ? "  block z-[3] " : "  block z-[2]"}`}>
+                <Image priority={true} width={pic.width} height={pic.height} className={`w-full h-full  object-cover ${pic.pos}`} src={pic.ico} alt="cover pic of website" />
               </div>
               )
         )}
