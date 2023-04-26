@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://flyfra.com/</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-formations</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-etudiants</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/contact</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-formations/cabin-crew</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-formations/flight-dispatcher</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-formations/agent-descale-aeroportuaire</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-formations/billetterie-amadeus</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-formations/espagnol-anglais</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flyfra.com/nos-formations/certificat-securite-sauvetage</loc>
+  <lastmod>2023-04-26T08:14:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
