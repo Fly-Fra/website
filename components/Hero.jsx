@@ -73,10 +73,10 @@ const Hero = ({setVisible}) => {
     
         <h1 ref={title} className="text-white translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] md:text-4xl md:text-left text-center lg:text-dark-blue [font-weight:700;] uppercase text-2xl lg:text-5xl leading-10 lg:leading-[4rem] tracking-tigh">
 
-          <span className="text-main-red"></span><Image  className="" width={400} height={600} src={"/learn.png"} /> avec notre academie
+          <span className="text-main-red"></span><Image  className="" width={400} height={600} src={"/learn.png"} /> avec votre academie
         </h1>
         <p ref={subtitle} className="xl:text-2xl font-Martl font-Montserrat-alt translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] opacity-0 text-lg md:text-xl lg:text-dark-blue text-white text-justify leading-8 lg:leading-10  mt-8">
-          Notre expertise de plus de 10 ans en matière de formation vous permet de vous préparer efficacement à une carrière passionnante dans l'industrie aérienne.
+          Notre expertise de plus de 30 ans en matière de formation vous permet de vous préparer efficacement à une carrière passionnante dans l'industrie aérienne.
         </p>
         <div ref={buttons} className="w-full opacity-0 translate-y-3 md:justify-start justify-center mt-12 flex ">
           <button onClick={()=>setVisible(true)} className="uppercase hover:shadow-lg transition-transform duration-200 ease-out group mr-8 md:text-base text-sm md:mr-20 w-64 overflow-hidden relative  py-4 bg-main-red">
