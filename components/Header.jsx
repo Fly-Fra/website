@@ -12,7 +12,7 @@ const Header = ({ activePage ,setVisible}) => {
     <header className={`w-full  z-10 flex  gap-x-4  px-8 md:justify-between transition-all duration-300  ease-out md:items-center md:flex-row flex-col md:pt-0  pt-4  ${navBar ? "h-96 md:h-20 bg-main-red md:bg-white " : " h-20 bg-white"}  fixed top-0   shadow-md `}>
       <div className="flex relative   items-center justify-between md:w-fit w-full">
         <Link className=" md:mr-16" href={"/"}>
-          <img className={` w-20  ${navBar ? "invert" : "invert-0"}  z-20 relative transition-all duration-300 ease-out hover:scale-95 object-contain`} src="/Logo-black.png" alt="logo of flyfra" />
+          <img className={`w-20  ${navBar ? "invert" : "invert-0"}  z-20 relative transition-all duration-300 ease-out hover:scale-95 object-contain`} src="/Logo.png" style={{height:115, width:180, margin:-33, left:25 }} alt="logo of flyfra" />
         </Link>
         <HiMenuAlt3 tabIndex={0} onClick={() => setnavBar(!navBar)} className={`text-3xl cursor-pointer md:hidden block active:scale-95 z-20 ${navBar ? "text-white active:text-gray-50" : "active:text-main-red text-dark-blue"}  transition-all ease-out duration-200 `} />
       </div>
@@ -42,7 +42,7 @@ const Header = ({ activePage ,setVisible}) => {
             contact
           </div>
         </Link>
-        
+
       </nav>
       {/* desktop header */}
 
@@ -79,6 +79,12 @@ const Header = ({ activePage ,setVisible}) => {
       </button>
       <div className={`w-48 h-full ${setVisible ? "hidden" :"block"}`}>
       </div>
+
+      <img className={`w-20  ${navBar ? "invert" : "invert-0"}  z-20 relative transition-all duration-300 ease-out hover:scale-95 object-contain`} src="/wiings.png" style={{height:40, width:190, marginBlock:-20, marginLeft:95 }} alt="logo of flyfra" />
+      
+
+
+
       {/* <nav onClick={()=> setnavBar(false) } className={`absolute  text-white  transition-all flex flex-col pt-24 duration-200 ease-out ${navBar ? "left-0" :"left-full"} h-screen w-full bg-main-red top-0 z-10`}>
           <Link href={"/"}>
               <div className="border-t-2 h-14 justify-between px-24 sm:px-40 text-left flex items-center w-full ">

@@ -38,6 +38,9 @@ const Hero = ({setVisible}) => {
     { ico: "/language.jpg", pos: "object-bottom", width: "1750", height: "2184" },
     { ico: "/cover.jpg", pos: "object-center", width: "1112", height: "1280" },
     { ico: "/plane.jpeg", pos: "object-bottom", width: "1000", height: "668" },
+    { ico: "/agentdescale1-z.jpg", pos: "object-top", width: "564", height: "750" },
+    { ico: "/agentdescale2.jpg", pos: "object-top", width: "373", height: "280" },
+    { ico: "/agentdescale3.jpg", pos: "object-top", width: "99999999", height: "9999999" },
   ];
 
   const length = slides.length;
@@ -67,9 +70,10 @@ const Hero = ({setVisible}) => {
     <section className=" pb-16  min-h-[80vh] lg:min-h-screen relative lg:pb-0 z-[4] bg-transparent lg:bg-white  overflow-hidden gap-8 grid grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 pt-20 ">
       <div data-scrollh="1" className="h-1 scrollLineH w-0 bg-main-red absolute bottom-0 z-[10]"></div>
       <div className=" h-full z-[3] lg:pb-8 lg:pl-8 lg:pr-0 px-6 sm:px-12 w-full flex flex-col pt-12 lg:pt-16">
-        <p className="text-lg md:text-left text-center text-white lg:text-[#474747] tracking-[0.2em] relative left-1 uppercase">agréée DACM</p>
+    
         <h1 ref={title} className="text-white translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] md:text-4xl md:text-left text-center lg:text-dark-blue [font-weight:700;] uppercase text-2xl lg:text-5xl leading-10 lg:leading-[4rem] tracking-tigh">
-          <span className="text-main-red">Boostez</span> votre carriere avec notre academie
+
+          <span className="text-main-red"></span><Image  className="" width={400} height={600} src={"/learn.png"} /> avec notre academie
         </h1>
         <p ref={subtitle} className="xl:text-2xl font-Martl font-Montserrat-alt translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] opacity-0 text-lg md:text-xl lg:text-dark-blue text-white text-justify leading-8 lg:leading-10  mt-8">
           Notre expertise de plus de 10 ans en matière de formation vous permet de vous préparer efficacement à une carrière passionnante dans l'industrie aérienne.
