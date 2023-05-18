@@ -2,10 +2,10 @@ import { useState } from "react";
 
 const Faq = () => {
   const questions = [
-    { title: "question", awnser: "Test, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
-    { title: "question2", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
-    { title: "question3", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
-    { title: "question3", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
+    { title: "Pourquoi intégrer Fly Fra Academy ?", awnser: "Test, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
+    { title: "Pourquoi un métier dans l'aviation ?", awnser: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quibusdam amet recusandae vitae ipsum ratione nobis voluptas, eaque ipsam distinctio ut. Nemo similique sequi, excepturi incidunt aspernatur animi pariatur odit!" },
+    { title: "Pourquoi choisir un métier dans le tourisme ?", awnser:"Les métiers du tourisme sont ouverts à ceux qui recherchent un emploi permanent, saisonnier, à temps partiel ou à temps plein. Peu importe votre parcours, l'important, c'est l'envie de faire partie d'une communauté engagée à faire briller sa région, son pays, sa culture, sa gastronomie, ses arts, sa langue etc... et rendre le séjour des visiteurs mémorable."},
+    { title: "Comment appelle le métier qui fait le Tourisme ?", awnser:"L'un des principaux acteurs du marché du tourisme sont les Tours Opérateurs, appelés également TO ou bien encore voyagistes. Ce sont des organismes chargé d'organiser des séjours touristiques, et cela en assemblant plusieurs prestations : compagnies aériennes, hôtels, restaurateurs, guides, etc.1 juin 2010"},
   ];
   const [selected, setselected] = useState("");
   return (

@@ -7,7 +7,7 @@ const Contact = () => {
     <section className="h-fit w-full text-white bg-gray-50 z-[2] grid place-items-center px-8 md:px-20 py-16">
       <div className="w-full min-h-[18rem] md:flex-row flex flex-col">
         <div className=" gap-8 order-2 md:order-1 flex flex-col justify-between w-full md:w-80 bg-main-red  p-4">
-          <p className="tracking-wide font-medium text-lg text-white uppercase">nos formations</p>
+          <p className="tracking-wide font-medium text-lg text-white uppercase">nos informations</p>
           <div className="w-full text-lg items-center flex justify-between">
             <MdEmail className="text-3xl" />
             contact@flyfra.com

@@ -17,7 +17,7 @@ const Footer = () => {
             <p className="lg:text-lg w-fit text-xs sm:text-sm transition-all duration-300 ease-in-out hover:-translate-y-1 md:text-base text-center  h-full    flex flex-col justify-between   capitalize tracking-wider font-light text-white">formations</p>
           </Link>
           <Link href={"/nos-etudiants"}>
-            <p className="lg:text-lg w-fit text-xs sm:text-sm transition-all duration-300 ease-in-out hover:-translate-y-1 md:text-base text-center  h-full    flex flex-col justify-between   capitalize tracking-wider font-light text-white">etudiants</p>
+            <p className="lg:text-lg w-fit text-xs sm:text-sm transition-all duration-300 ease-in-out hover:-translate-y-1 md:text-base text-center  h-full    flex flex-col justify-between   capitalize tracking-wider font-light text-white">Alumni</p>
           </Link>
           <Link href={"/contact"}>
             <p className="lg:text-lg w-fit text-xs sm:text-sm transition-all duration-300 ease-in-out hover:-translate-y-1 md:text-base text-center  h-full    flex flex-col justify-between   capitalize tracking-wider font-light text-white">Contact</p>
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-16 gap-x-8 flex items-center justify-between border-t-2 py-1 border-white">
         <p className="flex items-center text-white text-xs md:text-lg">
-          <AiOutlineCopyright className="mr-4 text-xl" /> 2018 Fly Fra Academy. All Rights Reserved
+          <AiOutlineCopyright className="mr-4 text-xl" /> 2014 Fly Fra Academy. All Rights Reserved
         </p>
         <div className="lg:w-60 w-40 flex text-white items-center justify-between">
           <a className="transition-all duration-300 ease-out hover:scale-95" href="https://www.facebook.com/FlyFraDZ" target="_blank" rel="noopener noreferrer">

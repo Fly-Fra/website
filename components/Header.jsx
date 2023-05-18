@@ -70,6 +70,8 @@ const Header = ({ activePage ,setVisible}) => {
             <p>Contact</p>
             <div className={`w-[50%] ${activePage === "/contact" ? "bg-main-red" : "group-hover:bg-main-red bg-transparent"}  transition-colors duration-200 ease-out h-1`}></div>
           </div>
+
+          
         </Link>
        
         
@@ -77,11 +79,13 @@ const Header = ({ activePage ,setVisible}) => {
       <button onClick={()=>setVisible(true)} className={`justify-self-end ${setVisible ? "md:block" :"md:hidden"} hidden hover:text-secondary-red   w-48 text-main-red uppercase font-medium text-sm `}>
         inscrivez-vous
       </button>
-      <div className={`w-48 h-full ${setVisible ? "hidden" :"block"}`}>
-      </div>
+      <div className={`w-48 h-full ${setVisible ? "hidden" :"block"}`}></div>
 
-      <img className={`w-20  ${navBar ? "invert" : "invert-0"}  z-20 relative transition-all duration-300 ease-out hover:scale-95 object-contain`} src="/wiings.png" style={{height:40, width:190, marginBlock:-20, marginLeft:95 }} alt="logo of flyfra" />
       
+         
+        
+      <img className={`w-20  ${navBar ? "invert" : "invert-0"}  z-20 relative transition-all duration-300 ease-out hover:scale-95 object-contain`} src="/wiings.png" style={{height:40, width:190, marginBlock:-40, marginLeft:95 }} />
+    
 
 
 

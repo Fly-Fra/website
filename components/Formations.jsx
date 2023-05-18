@@ -67,7 +67,7 @@ const Formations = ({ courses }) => {
               Notre académie offre des formations de qualité supérieure grâce à
               nos instructeurs expérimentés et à nos programmes mis à jour
               régulièrement. Nous visons à offrir un environnement
-              d'apprentissage interactif pour nos étudiants.Optez pour notre
+              d'apprentissage interactif pour nos étudiants. Optez pour notre
               académie pour un apprentissage de qualité et atteindre vos
               objectifs dans l'industrie aérienne.
             </p>
