@@ -33,7 +33,7 @@ const Header = ({ activePage ,setVisible}) => {
         <Link href={"/nos-etudiants"}>
           <div className="border-t-2 justify-between px-24 sm:px-40 text-left h-14 flex items-center w-full ">
             <FaBook className="text-2xl " />
-            Etudiants
+            Alumni
           </div>
         </Link>
         <Link href={"/contact"}>
@@ -61,7 +61,7 @@ const Header = ({ activePage ,setVisible}) => {
         </Link>
         <Link href={"/nos-etudiants"}>
           <div className=" md:text-base text-center group items-center h-full pt-[1.8rem]  w-full flex flex-col justify-between   capitalize tracking-wider font-light text-dark-blue">
-            <p>Nos Etudiants</p>
+            <p>Alumni</p>
             <div className={`w-[50%] ${activePage === "/nos-etudiants" ? "bg-main-red" : "group-hover:bg-main-red bg-transparent"}  transition-colors duration-200 ease-out h-1`}></div>
           </div>
         </Link>
