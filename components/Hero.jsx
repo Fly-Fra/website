@@ -73,7 +73,7 @@ const Hero = ({setVisible}) => {
     
         <h1 ref={title} className="text-white translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] md:text-4xl md:text-left text-center lg:text-dark-blue [font-weight:700;] uppercase text-2xl lg:text-5xl leading-10 lg:leading-[4rem] tracking-tigh">
 
-          <span className="text-main-red"></span><Image  className="" width={400} height={600} src={"/learn.png"} /> avec votre academie
+          <span className="text-main-red"></span><Image  className="" width={400} height={600} src={"/learn.png"} /> avec votre academie 
         </h1>
         <p ref={subtitle} className="xl:text-2xl font-Martl font-Montserrat-alt translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] opacity-0 text-lg md:text-xl lg:text-dark-blue text-white text-justify leading-8 lg:leading-10  mt-8">
           Notre expertise de plus de 30 ans en matière de formation vous permet de vous préparer efficacement à une carrière passionnante dans l'industrie aérienne.
@@ -104,6 +104,10 @@ const Hero = ({setVisible}) => {
             <p className="font-medium text-xs md:text-lg  lg:text-xl"> +10 formations</p>
           </div>
         </div>
+        <center>
+        <br/>
+        <span className="text-main-red"></span><Image  className="" width={122} height={600} src={"/dacm.png"} />
+        </center>
       </div>
       <div className="z-[1] h-screen w-full absolute top-0 backdrop-blur-sm bg-light-blue lg:hidden block bg-opacity-70"></div>
       <div className="absolute overflow-  z-[0] lg:relative w-full h-full">
@@ -121,8 +125,7 @@ const Hero = ({setVisible}) => {
         )}
       </div>
       </div>
-
-      
+        
     </section>
   );
 };
