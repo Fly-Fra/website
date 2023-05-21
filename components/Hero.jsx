@@ -104,10 +104,18 @@ const Hero = ({setVisible}) => {
             <p className="font-medium text-xs md:text-lg  lg:text-xl"> +10 formations</p>
           </div>
         </div>
-        <center>
+       
         <br/>
-        <span className="text-main-red"></span><Image  className="" width={122} height={600} src={"/dacm.png"} />
-        </center>
+      
+        
+        <div className="flex">
+            <div className="" /><center><p>Ministère des Transports<br/>DIRECTION DE L'AVIATION CIVILE ET<br/>DE LA METEOROLOGIE</p></center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Image  className="card-body float-right" width={122} height={600} src={"/dacm.png"} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<center> <p>وزارة النقل <br/>مديرية الطيران المدني <br/>و الأرصاد الجوية</p></center>
+          </div>
+       
+
+
+
       </div>
       <div className="z-[1] h-screen w-full absolute top-0 backdrop-blur-sm bg-light-blue lg:hidden block bg-opacity-70"></div>
       <div className="absolute overflow-  z-[0] lg:relative w-full h-full">
