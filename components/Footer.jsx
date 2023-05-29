@@ -46,7 +46,8 @@ const Footer = () => {
                   fill="white"
                 />
               </svg>
-              044 17 90 89 
+              
+              <a href="tel:044179089">044 17 90 89 </a>
             </p>
             <p className="md:text-lg text-sm 2xl:text-xl flex items-center ml-12 mt-4 text-white">
               <svg className="w-6 mr-4" width="35" height="28" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
