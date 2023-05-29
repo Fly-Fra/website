@@ -150,7 +150,7 @@ const ContactForm = () => {
             <div className="md:w-12 md:h-12 w-10  h-10   transition-all duration-300 ease-in-out group-hover:bg-main-red   group-hover:shadow-lg  bg-white outline outline-4 outline-main-red rounded-full  grid place-items-center">
               <BsFillTelephoneFill className="md:text-2xl group-hover:-translate-y-1 transition-all duration-300 ease-in-out group-hover:text-white text-light-blue" />
             </div>
-            <p className="md:text-xl md:text-left text-center">044 17 90 89</p>
+            <p className="md:text-xl md:text-left text-center"><a href="tel:044179089">044 17 90 89 </a></p>
           </div>
           <div className="flex relative left-2 gap-y-2 md:flex-row flex-col group items-center gap-x-6">
             <div className="md:w-12 md:h-12 w-10  h-10   transition-all duration-300 ease-in-out group-hover:bg-main-red   group-hover:shadow-lg  bg-white outline outline-4 outline-main-red rounded-full  grid place-items-center">
@@ -164,7 +164,7 @@ const ContactForm = () => {
             <div className="md:w-12 md:h-12 w-10  h-10   transition-all duration-300 ease-in-out group-hover:bg-main-red   group-hover:shadow-lg  bg-white outline outline-4 outline-main-red rounded-full  grid place-items-center">
               <MdEmail className="md:text-2xl group-hover:-translate-y-1 transition-all duration-300 ease-in-out group-hover:text-white text-light-blue" />
             </div>
-            <p className="md:text-xl md:text-left text-center">contact@flyfra.com</p>
+            <p className="md:text-xl md:text-left text-center"><a href="mailto:contact@flyfra.com">contact@flyfra.com</a></p>
           </div>
           <div className="w-full max-w-md text-lg items-center flex justify-center gap-x-16 md:justify-between">
             <a

@@ -10,11 +10,11 @@ const Contact = () => {
           <p className="tracking-wide font-medium text-lg text-white uppercase">nos informations</p>
           <div className="w-full text-lg items-center flex justify-between">
             <MdEmail className="text-3xl" />
-            contact@flyfra.com
+            <a href="mailto:contact@flyfra.com">contact@flyfra.com</a>
           </div>
           <div className="w-full text-lg items-center flex justify-between">
             <BsFillTelephoneFill className="text-3xl" />
-            044 17 90 89
+            <a href="tel:044179089">044 17 90 89 </a>
           </div>
           <div className="w-full text-lg items-center flex justify-between">
             <a className="transition-all duration-300 ease-out hover:scale-95" href="https://www.facebook.com/FlyFraDZ" target="_blank" rel="noopener noreferrer">

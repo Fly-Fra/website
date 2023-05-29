@@ -56,7 +56,7 @@ const Footer = () => {
                   fill="white"
                 />
               </svg>
-              contact@flyfra.com
+              <a href="mailto:contact@flyfra.com">contact@flyfra.com</a>
             </p>
           </div>
         </div>
