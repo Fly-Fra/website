@@ -55,7 +55,7 @@ const Header = ({ activePage ,setVisible}) => {
         </Link>
         <Link href={"/nos-formations"}>
           <div className=" md:text-base text-center group items-center h-full pt-[1.8rem]  w-full flex flex-col justify-between   capitalize tracking-wider font-light text-dark-blue">
-            <p>Nos formations</p>
+            <p>Formations</p>
             <div className={`w-[80%] ${activePage === "/nos-formations" ? "bg-main-red" : "group-hover:bg-main-red bg-transparent"} transition-colors duration-200 ease-out h-1`}></div>
           </div>
         </Link>
