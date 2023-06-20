@@ -11,7 +11,7 @@ const Header = ({ activePage ,setVisible}) => {
   return (
     <header className={`w-full  z-10 flex  gap-x-4  px-8 md:justify-between transition-all duration-300  ease-out md:items-center md:flex-row flex-col md:pt-0  pt-4  ${navBar ? "h-96 md:h-20 bg-main-red md:bg-white " : " h-20 bg-white"}  fixed top-0   shadow-md `}>
       <div className="flex relative   items-center justify-between md:w-fit w-full">
-        <Link className=" md:mr-16" href={"/"}>
+        <Link className=" md:w-28 w-20" href={"/"}>
           <img className={`w-20  ${navBar ? "invert" : "invert-0"}  z-20 relative transition-all duration-300 ease-out hover:scale-95 object-contain`} src="/Logo.png" style={{height:115, width:180, margin:-33, left:25 }} alt="logo of flyfra" />
         </Link>
         <HiMenuAlt3 tabIndex={0} onClick={() => setnavBar(!navBar)} className={`text-3xl cursor-pointer md:hidden block active:scale-95 z-20 ${navBar ? "text-white active:text-gray-50" : "active:text-main-red text-dark-blue"}  transition-all ease-out duration-200 `} />
