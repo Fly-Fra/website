@@ -72,8 +72,9 @@ const Hero = ({setVisible}) => {
       <div className=" h-full z-[3] lg:pb-8 lg:pl-8 lg:pr-0 px-6 sm:px-12 w-full flex flex-col pt-12 lg:pt-16">
     
         <h1 ref={title} className="text-white translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] md:text-4xl md:text-left text-center lg:text-dark-blue [font-weight:700;] uppercase text-2xl lg:text-5xl leading-10 lg:leading-[4rem] tracking-tigh">
-
-          <span className="text-main-red"></span><Image  className="" width={400} height={600} src={"/learn.png"} /> avec votre academie 
+          
+          <span className="text-main-red"></span><center><Image  className="" width={400} height={600} src={"/learn.png"} /> avec votre academie </center>
+          
         </h1>
         <p ref={subtitle} className="xl:text-2xl font-Martl font-Montserrat-alt translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] opacity-0 text-lg md:text-xl lg:text-dark-blue text-white text-justify leading-8 lg:leading-10  mt-8">
           Notre expertise de plus de 30 ans en matière de formation vous permet de vous préparer efficacement à une carrière passionnante dans l'industrie aérienne.
@@ -108,7 +109,7 @@ const Hero = ({setVisible}) => {
         <br/>
       
         
-        <div className="flex">
+        <div className="flex md:text">
             <div className="" /><center><p>Ministère des Transports<br/>DIRECTION DE L'AVIATION CIVILE ET<br/>DE LA METEOROLOGIE</p></center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <Image  className="card-body float-right" width={122} height={600} src={"/dacm.png"} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<center> <p>وزارة النقل <br/>مديرية الطيران المدني <br/>و الأرصاد الجوية</p></center>
           </div>

@@ -24,7 +24,7 @@ const Footer = () => {
           </Link>
         </nav>
         <Link className="order-1 sm:order-2" href={"/"}>
-          <img  className={`md:w-24 sm:w-16 w-16 invert z-20 relative transition-all duration-300 ease-out hover:scale-95  `} src="/Logo-black.png" alt="logo of flyfra" />
+          <img  className={`md:w-44 sm:w-20 w-20 invert z-30 relative transition-all duration-300 ease-out hover:scale-95  `} src="/Logo-black.png" alt="logo of flyfra" />
         </Link>
       </div>
       <div className="grid grid-cols-2   md:grid-cols-3 w-full h-full">
