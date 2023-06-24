@@ -6,11 +6,11 @@ const FormationHero = () => {
   return (
     <section className="md:h-[70vh]  pt-12 aspect-square gap-8 w-full md:grid-rows-1 grid-rows-2 grid-cols-1   grid md:grid-cols-2 md:place-items-center">
       <div className="md:h-full md:px-0 px-8 h-[30rem] sm:h-96 relative xl:top-8 lg:top-3 md:top-8 top-12 2xl:top-16  md:pr-0 md:pl-8 w-full flex flex-col gap-y-3">
-        <p className="text-lg text-[#474747] tracking-[0.2em] relative left-1 uppercase">agréée DACM</p>
+        <p className="text-lg text-[#474747] tracking-[0.2em] relative left-1 uppercase">   </p>
         
       
-        <h2 className="  md:text-4xl text-left  xl:text-5xl text-dark-blue [font-weight:700;] uppercase text-2xl  leading-10 lg:leading-[3rem] tracking-wide">
-         <center> <span className="text-[#474747]"><Image  className="" width={400} height={600} src={"/learn.png"} />avec des formations de qualité</span></center>
+        <h2 className="  md:text-4xl text-left  xl:text-1xl text-dark-blue [font-weight:700;] uppercase text-2xl  leading-10 lg:leading-[3rem] tracking-wide">
+         <center> <span className="text-[#000000]"><Image  className="" width={400} height={600} src={"/learn.png"} />Qualifiantes - Certifiantes</span></center>
         </h2>
         
         <p className="xl:text-2xl lg:text-xl font-Martl font-Montserrat-alt   text-lg md:text-xl text-dark-blue  text-justify leading-8 lg:leading-10 mt-4 ">Optez pour des formations de qualité pour développer vos compétences et atteindre vos objectifs professionnels.</p>
