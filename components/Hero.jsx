@@ -94,15 +94,15 @@ const Hero = ({setVisible}) => {
         <div ref={additional} className="w-full opacity-0  mt-16 items-center text-white lg:text-dark-blue justify-between flex">
           <div className="flex items-center xl:uppercase pl-2 justify-between">
             <BsFillPeopleFill className="md:text-3xl text-xl mr-3" />
-            <p className="font-medium text-xs lg:text-xl"> +200 étudiants</p>
+            <p className="font-medium text-xs lg:text-xl">+ 600 étudiants</p>
           </div>
           <div className="flex items-center xl:uppercase pl-2 justify-between">
             <FaBuilding className="md:text-3xl text-xl mr-3" />
-            <p className="font-medium text-xs lg:text-xl"> +8 partenaires</p>
+            <p className="font-medium text-xs lg:text-xl">+ 8 partenaires</p>
           </div>
           <div className="flex items-center xl:uppercase pl-2 justify-between">
             <FaGraduationCap className="md:text-3xl lg:text-4xl text-xl mr-3" />
-            <p className="font-medium text-xs md:text-lg  lg:text-xl"> +10 formations</p>
+            <p className="font-medium text-xs md:text-lg  lg:text-xl">+ 6 formations</p>
           </div>
         </div>
        
