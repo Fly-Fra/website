@@ -73,7 +73,7 @@ const Hero = ({setVisible}) => {
     
         <h1 ref={title} className="text-white translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] md:text-4xl md:text-left text-center lg:text-dark-blue [font-weight:700;] uppercase text-2xl lg:text-5xl leading-10 lg:leading-[4rem] tracking-tigh">
           
-          <span className="text-main-red"></span><center><Image  className="" width={400} height={600} src={"/learn.png"} /> avec votre academie </center>
+          <span className="text-main-red"></span><center><Image  className="" width={400} height={600} src={"/learn.png"} />avec votre academie</center>
           
         </h1>
         <p ref={subtitle} className="xl:text-2xl font-Martl font-Montserrat-alt translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] opacity-0 text-lg md:text-xl lg:text-dark-blue text-white text-justify leading-8 lg:leading-10  mt-8">
