@@ -5,9 +5,11 @@ import { AiOutlineCopyright } from "react-icons/ai";
 import { AiFillFacebook, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import Image from "next/image";
+
+
 const Footer = () => {
   return (
-    <footer className=" justify-between gap-y-12 relative items-center flex flex-col px-4 sm:px-8 md:px-20 pt-12 py-4 z-[2] w-full  bg-dark-blue">
+    <footer className=" justify-between gap-y-12 relative items-center flex flex-col px-4 sm:px-8 md:px-20 pt-12 py-4 z-[2] w-full  bg-new-blue">
       <div className="w-full gap-y-6 sm:flex-row flex-col flex justify-between sm:items-center">
         <nav className="md:w-[40rem] order-2 sm:order-1 w-full px-2 sm:w-[70%]  flex justify-between sm:mr-12 items-center  h-full">
           <Link href={"/"}>
