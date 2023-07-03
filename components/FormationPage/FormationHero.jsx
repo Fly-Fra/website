@@ -10,10 +10,10 @@ const FormationHero = () => {
         
       
         <h2 className="  md:text-4xl text-left  xl:text-1xl text-dark-blue [font-weight:700;] uppercase text-2xl  leading-10 lg:leading-[3rem] tracking-wide">
-         <center> <span className="text-[#000000]"><Image  className="" width={400} height={600} src={"/learn.png"} />Qualifiantes - Certifiantes</span></center>
+         <center> <span className="text-[#000000]"><Image  className="" width={400} height={600} src={"/learn.png"} />  </span></center>
         </h2>
         
-        <p className="xl:text-2xl lg:text-xl font-Martl font-Montserrat-alt   text-lg md:text-xl text-dark-blue  text-justify leading-8 lg:leading-10 mt-4 ">Optez pour des formations de qualité pour développer vos compétences et atteindre vos objectifs professionnels.</p>
+        <p className="xl:text-2xl lg:text-xl font-Martl font-Montserrat-alt   text-lg md:text-xl text-dark-blue  text-justify leading-8 lg:leading-10 mt-4 ">Optez pour des formations qualifiantes et certifiantes de qualité pour développer vos compétences et atteindre vos objectifs professionnels.</p>
         <LinkS to="formations" offset={-80} spy={true} smooth className="secondary-button group mt-2 sm:mt-8">
           <p className=" relative group-hover:mr-2 -mr-4 text-dark-blue  transition-all duration-300 ease-out">voir plus </p>
           <IoIosArrowDown className="text-dark-blue  relative left-3 text-xl group-hover:opacity-100 opacity-0" />
