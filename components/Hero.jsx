@@ -98,7 +98,7 @@ const Hero = ({setVisible}) => {
           </div>
           <div className="flex items-center xl:uppercase pl-2 justify-between">
             <FaBuilding className="md:text-3xl text-xl mr-3" />
-            <p className="font-medium text-xs lg:text-xl">+ 8 partenaires</p>
+            <p className="font-medium text-xs lg:text-xl">+ 70% élèves à l'étranger</p>
           </div>
           <div className="flex items-center xl:uppercase pl-2 justify-between">
             <FaGraduationCap className="md:text-3xl lg:text-4xl text-xl mr-3" />
