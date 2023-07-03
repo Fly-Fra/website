@@ -71,11 +71,11 @@ const Hero = ({setVisible}) => {
       <div data-scrollh="1" className="h-1 scrollLineH w-0 bg-main-red absolute bottom-0 z-[10]"></div>
       <div className=" h-full z-[3] lg:pb-8 lg:pl-8 lg:pr-0 px-6 sm:px-12 w-full flex flex-col pt-12 lg:pt-16">
     
-        <h1 ref={title} className="text-white translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] md:text-4xl md:text-left text-center lg:text-dark-blue [font-weight:700;] uppercase text-2xl lg:text-5xl leading-10 lg:leading-[4rem] tracking-tigh">
+        <h3 ref={title} className="text-white translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] md:text-4xl md:text-left text-center lg:text-dark-blue [font-weight:700;] uppercase text-2xl lg:text-1xl leading-10 lg:leading-[4rem] tracking-tigh">
           
           <span className="text-main-red"></span><center><Image  className="" width={400} height={600} src={"/learn.png"} />avec votre academie</center>
           
-        </h1>
+        </h3>
         <p ref={subtitle} className="xl:text-2xl font-Martl font-Montserrat-alt translate-y-6 [clip-path:_polygon(0%_100%,_100%_100%,_100%_100%,_0%_100%);] opacity-0 text-lg md:text-xl lg:text-dark-blue text-white text-justify leading-8 lg:leading-10  mt-8">
           Notre expertise de plus de 30 ans en matière de formation vous permet de vous préparer efficacement à une carrière passionnante dans l'industrie aérienne.
         </p>
