@@ -33,6 +33,7 @@ const Hero = ({setVisible}) => {
     start();
   }, []);
   const slides = [
+    { ico: "/fss05.jpeg", pos: "object-top", width: "99999999", height: "9999999" },
     { ico: "/cover2.jpg", pos: "object-top", width: "564", height: "748" },
     { ico: "/demonstration.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/language.jpg", pos: "object-bottom", width: "1750", height: "2184" },
@@ -41,6 +42,7 @@ const Hero = ({setVisible}) => {
     { ico: "/agentdescale1-z.jpg", pos: "object-top", width: "564", height: "750" },
     { ico: "/agentdescale2.jpg", pos: "object-top", width: "373", height: "280" },
     { ico: "/agentdescale3.jpg", pos: "object-top", width: "99999999", height: "9999999" },
+
   ];
 
   const length = slides.length;
