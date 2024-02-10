@@ -112,8 +112,8 @@ const Hero = ({setVisible}) => {
       
         
         <div className="flex md:text">
-            <div className="" /><center><p>Ministère des Transports<br/>DIRECTION DE L'AVIATION CIVILE ET<br/>DE LA METEOROLOGIE</p></center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Image  className="card-body float-right" width={122} height={600} src={"/dacm.png"} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<center> <p>وزارة النقل <br/>مديرية الطيران المدني <br/>و الأرصاد الجوية</p></center>
+            <div className="" /><center><p>Ministère des Transports<br/>AGENCE NATIONALE <br/>DE L'AVIATION CIVILE</p></center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Image  className="card-body float-right" width={122} height={600} src={"/dacm.png"} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<center> <p>وزارة النقل <br/>الوكالة الوطنية <br/>للطيران المدني</p></center>
           </div>
        
 

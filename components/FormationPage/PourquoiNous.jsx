@@ -35,7 +35,7 @@ const PourquoiNous = () => {
             </svg>
 
             <li data-scrolli="3" className="list-item scrollInfo translate-y-2 opacity-0  list-inside text-white lg:text-xl">
-              Agréée par la DAM
+              Agréée par l'ANAC
             </li>
             <li data-scrolli="4" className="list-item scrollInfo translate-y-2 opacity-0  list-inside text-white lg:text-xl">
               Opportunités de stage
