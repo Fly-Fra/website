@@ -33,6 +33,8 @@ const Hero = ({setVisible}) => {
     start();
   }, []);
   const slides = [
+    
+    { ico: "/IMG_3776.jpg", pos: "object-top", width: "99999999", height: "9999999" },
     { ico: "/fss05.jpeg", pos: "object-top", width: "99999999", height: "9999999" },
     { ico: "/cover2.jpg", pos: "object-top", width: "564", height: "748" },
     { ico: "/ckp.jpg", pos: "object-top", width: "1200", height: "1408" },
