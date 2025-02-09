@@ -36,8 +36,9 @@ const Hero = ({setVisible}) => {
     { ico: "/IMG-EMIRATES.jpg", pos: "object-center", width: "1112", height: "1280" },
     { ico: "/20211021_1903.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/IMG-7e65152716121ff21d04cd8065447dae-V.jpg", pos: "object-top", width: "1200", height: "1408" },
-    { ico: "/20200109_164445.jpg", pos: "object-top", width: "1200", height: "1408" },
-    { ico: "/IMG_2015.jpg", pos: "object-top", width: "1200", height: "1408" },
+    { ico: "/F20200109_1644452.jpg", pos: "object-top", width: "1200", height: "1408" },
+    { ico: "/IMG_20152.jpg", pos: "object-top", width: "1200", height: "1408" },
+    { ico: "/IMG_3423.JPG", pos: "object-top", width: "1200", height: "1408" },
     
     { ico: "/IMG_3964.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/IMG_3776.jpg", pos: "object-top", width: "99999999", height: "9999999" },
