@@ -33,20 +33,20 @@ const Hero = ({setVisible}) => {
     start();
   }, []);
   const slides = [
-    { ico: "/IMG-EMIRATES.jpg", pos: "object-center", width: "1112", height: "1280" },
+    { ico: "/cover2.jpg", pos: "object-top", width: "564", height: "748" },
     { ico: "/20211021_1903.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/IMG-7e65152716121ff21d04cd8065447dae-V.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/F20200109_1644452.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/IMG_20152.jpg", pos: "object-top", width: "1200", height: "1408" },
+    { ico: "/IMG-EMIRATES.jpg", pos: "object-center", width: "1112", height: "1280" },
     { ico: "/IMG_3423.JPG", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/IMG_3964.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/IMG_3776.jpg", pos: "object-top", width: "99999999", height: "9999999" },
     { ico: "/fss05.jpeg", pos: "object-top", width: "99999999", height: "9999999" },
-    { ico: "/cover2.jpg", pos: "object-top", width: "564", height: "748" },
     { ico: "/ckp.jpg", pos: "object-top", width: "1200", height: "1408" },
     { ico: "/cover.jpg", pos: "object-center", width: "1112", height: "1280" },
-    { ico: "/agentdescale1-z.jpg", pos: "object-top", width: "564", height: "750" },
     { ico: "/agentdescale2.jpg", pos: "object-top", width: "373", height: "280" },
+    { ico: "/agentdescale1-z.jpg", pos: "object-top", width: "564", height: "750" },
     { ico: "/agentdescale3.jpg", pos: "object-top", width: "99999999", height: "9999999" },
 
 
