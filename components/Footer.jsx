@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-16 gap-x-8 flex items-center justify-between border-t-2 py-1 border-white">
         <p className="flex items-center text-white text-xs md:text-lg">
-          <AiOutlineCopyright className="mr-4 text-xl" /> 2014 Fly Fra Academy. All Rights Reserved
+          <AiOutlineCopyright className="mr-4 text-xl" /> 2025 Fly Fra Academy. All Rights Reserved
         </p>
         <div className="lg:w-60 w-40 flex text-white items-center justify-between">
           <a className="transition-all duration-300 ease-out hover:scale-95" href="https://www.facebook.com/FlyFraDZ" target="_blank" rel="noopener noreferrer">

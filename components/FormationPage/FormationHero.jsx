@@ -21,7 +21,7 @@ const FormationHero = () => {
       </div>
       <div className="h-full px-8 lg:px-16 flex items-center justify-end ">
         <div className="h-full max-h-lg md:max-h-xl  max-w-lg md:max-w-xl lg:max-w-2xl w-full grid place-items-center relative">
-          <Image alt="a picture of a beautifull  flight attendants" className="object-cover max-h-[60vh]  object-top rounded-md aspect-square relative h-full  w-full" width={2000} height={2000} src={"/flight_attendant2.png"} />
+          <Image alt="a picture of a beautifull  flight attendants" className="object-cover max-h-[60vh]  object-top rounded-md aspect-square relative h-full  w-full" width={2000} height={2000} src={"/IMG-20250322-WA0013.jpg"} />
         </div>
       </div>
     </section>
